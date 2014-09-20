@@ -1,4 +1,4 @@
 catastrophes-system
 ===================
 
-Proyecto de manejo de catastrofes
+Proyecto de manejo de catastrofes.
