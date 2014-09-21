@@ -1,0 +1,4 @@
+1411313602228	Rename resource 'com.catastrophes-system'
+1411313709319	Rename resource 'com.catastrophes-system-web'
+1411317401958	Delete resource 'catastrophes-system-web/resources'
+1411317417323	Delete resource 'catastrophes-system-web/src/main/resources'

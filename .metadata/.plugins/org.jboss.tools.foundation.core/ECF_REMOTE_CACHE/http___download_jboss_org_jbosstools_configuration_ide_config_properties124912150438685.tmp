@@ -1,0 +1,97 @@
+# Properties must use the following format : key|context|version=value
+# key = regular java property key
+# context = either jbosstools or devstudio
+# version = Major.Minor.Micro.Qualifier (without the timestamp)
+# or
+# version = Major.Minor.Micro
+# or
+# version = Major.Minor
+# or
+# version = Major
+#
+# version can be optional for a given context.
+# context can be optional (but version can't be set
+#
+# JBOSS TOOLS
+#=================
+##Discovery
+
+### master is currently 4.3.0.Alpha1
+jboss.discovery.directory.url|jbosstools|4.3.0.Alpha1=http://download.jboss.org/jbosstools/discovery/nightly/core/master/jbosstools-directory.xml
+jboss.discovery.site.url|jbosstools|4.3.0.Alpha1=http://download.jboss.org/jbosstools/discovery/nightly/core/master/
+jboss.discovery.earlyaccess.site.url|jbosstools|4.3.0.Alpha1=http://download.jboss.org/jbosstools/discovery/nightly/core/master/
+jboss.discovery.earlyaccess.list.url|jbosstools|4.3.0.Alpha1=http://download.jboss.org/jbosstools/discovery/nightly/core/master/jbosstools-earlyaccess.properties
+
+### branch 4.2.x (upcoming 4.2.0.CR2)
+jboss.discovery.directory.url|jbosstools|4.2.0.CR2=http://download.jboss.org/jbosstools/discovery/nightly/core/4.2.luna/jbosstools-directory.xml
+jboss.discovery.site.url|jbosstools|4.2.0.CR2=http://download.jboss.org/jbosstools/discovery/nightly/core/4.2.luna/
+jboss.discovery.earlyaccess.site.url|jbosstools|4.2.0.CR2=http://download.jboss.org/jbosstools/discovery/nightly/core/4.2.luna/
+jboss.discovery.earlyaccess.list.url|jbosstools|4.2.0.CR2=http://download.jboss.org/jbosstools/discovery/nightly/core/4.2.luna/jbosstools-earlyaccess.properties
+# or once staged for QE
+#jboss.discovery.directory.url|jbosstools|4.2.0.CR1=http://download.jboss.org/jbosstools/discovery/development/4.2.0.CR2/jbosstools-directory.xml
+#jboss.discovery.site.url|jbosstools|4.2.0.CR1=http://download.jboss.org/jbosstools/discovery/development/4.2.0.CR2/
+#jboss.discovery.earlyaccess.site.url|jbosstools|4.2.0.CR1=http://download.jboss.org/jbosstools/discovery/development/4.2.0.CR2/
+#jboss.discovery.earlyaccess.list.url|jbosstools|4.2.0.CR1=http://download.jboss.org/jbosstools/discovery/development/4.2.0.CR2/jbosstools-earlyaccess.properties
+
+### latest release (Final or GA)
+jboss.discovery.directory.url|jbosstools|4.2.0.Final=http://download.jboss.org/jbosstools/updates/stable/luna/jbosstools-directory.xml
+jboss.discovery.site.url|jbosstools|4.2.0.Final=http://download.jboss.org/jbosstools/updates/stable/luna/central/core/
+jboss.discovery.earlyaccess.site.url|jbosstools|4.2.0.Final=http://download.jboss.org/jbosstools/updates/stable/luna/central/earlyaccess/
+
+### latest release milestone (pre-Final or pre-GA)
+jboss.discovery.directory.url|jbosstools|4.2.0=http://download.jboss.org/jbosstools/updates/development/luna/jbosstools-directory.xml
+jboss.discovery.site.url|jbosstools|4.2.0=http://download.jboss.org/jbosstools/updates/development/luna/central/core/
+jboss.discovery.earlyaccess.site.url|jbosstools|4.2.0=http://download.jboss.org/jbosstools/updates/development/luna/central/earlyaccess/
+jboss.discovery.earlyaccess.list.url|jbosstools|4.2.0=http://download.jboss.org/jbosstools/updates/development/luna/jbosstools-earlyaccess.properties
+
+##Examples
+featured.examples.url|jbosstools|4.2=http://download.jboss.org/jbosstools/examples/project-examples-shared-4.2.GA.xml
+community.examples.url|jbosstools|4.2=http://download.jboss.org/jbosstools/examples/project-examples-community-4.2.Beta2.xml
+maven.examples.url|jbosstools|4.2=http://download.jboss.org/jbosstools/examples/project-examples-maven-4.2.Beta3.xml
+portal.examples.url|jbosstools|4.2=http://download.jboss.org/gatein/quickstarts/jboss-portal-6.2/project-examples-jboss-portal6.2-jbds8.0-001.xml
+examples.categories.url|jbosstools|4.2=http://download.jboss.org/jbosstools/examples/project-examples-category-4.2.xml
+
+maven.examples.url|jbosstools|4.2.0.Beta2=http://download.jboss.org/jbosstools/examples/project-examples-maven-4.2.Beta2.xml
+
+# JBOSS DEVELOPER STUDIO
+#=======================
+##Discovery
+
+jboss.discovery.directory.url|devstudio|8.1.0.Alpha1=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/master/devstudio-directory.xml
+jboss.discovery.site.url|devstudio|8.1.0.Alpha1=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/master
+jboss.discovery.earlyaccess.site.url|devstudio|8.1.0.Alpha1=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/master
+jboss.discovery.earlyaccess.list.url|devstudio|8.1.0.Alpha1=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/master/devstudio-earlyaccess.properties
+
+# Next version on stream is 8.0.0.CR2
+jboss.discovery.directory.url|devstudio|8.0.0.CR2=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/4.2.luna/devstudio-directory.xml
+jboss.discovery.site.url|devstudio|8.0.0.CR2=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/4.2.luna
+jboss.discovery.earlyaccess.site.url|devstudio|8.0.0.CR2=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/4.2.luna
+jboss.discovery.earlyaccess.list.url|devstudio|8.0.0.CR2=http://www.qa.jboss.com/binaries/RHDS/discovery/nightly/core/4.2.luna/devstudio-earlyaccess.properties
+# When staged, replace with these values
+#jboss.discovery.directory.url|devstudio|8.0.0.CR2=https://devstudio.redhat.com/updates/8.0-staging/devstudio-directory.xml
+#jboss.discovery.site.url|devstudio|8.0.0.CR2=https://devstudio.redhat.com/updates/8.0-staging/
+#jboss.discovery.earlyaccess.site.url|devstudio|8.0.0.CR2=https://devstudio.redhat.com/earlyaccess/8.0-staging/
+#jboss.discovery.earlyaccess.list.url|devstudio|8.0.0.CR2=https://devstudio.redhat.com/updates/8.0-staging/discovery/devstudio-earlyaccess.properties
+
+### latest release (Final or GA)
+jboss.discovery.directory.url|devstudio|8.0.0.GA=https://devstudio.redhat.com/updates/8.0/devstudio-directory.xml
+jboss.discovery.site.url|devstudio|8.0.0.GA=https://devstudio.redhat.com/updates/8.0/
+jboss.discovery.earlyaccess.site.url|devstudio|8.0.0.GA=https://devstudio.redhat.com/earlyaccess/8.0/
+
+### latest release milestone (pre-Final or pre-GA)
+# TODO JBDS-3086 switch to new paths for update sites when CR1 is live
+jboss.discovery.directory.url|devstudio|8.0.0=https://devstudio.redhat.com/updates/8.0-development/devstudio-directory.xml
+jboss.discovery.site.url|devstudio|8.0.0=https://devstudio.redhat.com/updates/8.0-development/central/core/
+jboss.discovery.earlyaccess.site.url|devstudio|8.0.0=https://devstudio.redhat.com/updates/8.0-development/central/earlyaccess/
+jboss.discovery.earlyaccess.list.url|devstudio|8.0.0=https://devstudio.redhat.com/updates/8.0-development/devstudio-earlyaccess.properties
+
+##Examples
+featured.examples.url|devstudio|8.0=http://download.jboss.org/jbosstools/examples/project-examples-shared-4.2.GA.xml
+community.examples.url|devstudio|8.0=http://download.jboss.org/jbosstools/examples/project-examples-community-4.2.Beta2.xml
+maven.examples.url|devstudio|8.0=http://download.jboss.org/jbosstools/examples/project-examples-jbds80.Beta3.xml
+portal.examples.url|devstudio|8.0.0.Beta2=http://download.jboss.org/gatein/quickstarts/jboss-portal-6.2/project-examples-jboss-portal6.2-jbds8.0-001.xml
+examples.categories.url|devstudio|8.0=http://download.jboss.org/jbosstools/examples/project-examples-category-jbds-8.0.xml
+
+maven.examples.url|devstudio|8.0.0.Beta2=http://download.jboss.org/jbosstools/examples/project-examples-jbds80.xml
+
+buzz.feed.url=http://planet.jboss.org/feeds/buzz
