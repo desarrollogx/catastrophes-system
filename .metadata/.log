@@ -898,3 +898,46 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/com.catastroph
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 13:36:57.534
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 568 2014-09-21 17:51:06.559
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/javier/Documentos/Develop/Java/catastrophes-system/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:142)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1712)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1795)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1168)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1110)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-09-21 17:51:09.865
+!MESSAGE Unable to add com/catastrophes-system/com.catastrophes-system/0.0.1-SNAPSHOT/com.catastrophes-system-0.0.1-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:51:09.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:51:09.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-09-21 17:51:11.392
+!MESSAGE Unable to add com/catastrophes-system/com.catastrophes-system/0.0.1-SNAPSHOT/com.catastrophes-system-0.0.1-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:51:12.450
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:51:12.459
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-09-21 17:52:36.564
+!MESSAGE Unable to add com/catastrophes-system/com.catastrophes-system/0.0.1-SNAPSHOT/com.catastrophes-system-0.0.1-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:52:36.607
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-09-21 17:52:36.609
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
